@@ -4,7 +4,7 @@ const express = require("express");
 const app = express();
 
 const fs = require("fs");
-                              // ArdaDemr Youtube Kanalına Ait Vampir Köylü Bot Altyapısı
+                              // 
 //Uptime için__________________________________________________________________
 app.get("/", (req, res) => {
   res.send("ArdaDemr Discord Bot Altyapısı");
@@ -37,8 +37,8 @@ fs.readdir("./events/", (err, files) => {
 });
 
 client.on("ready", () => {
-  console.log(`ArdaDemr Discord Bot Altyapısı BOT AKTİF`);
+  console.log(` BOT AKTİF`);
 });
 
 client.login(process.env.TOKEN);
-// ArdaDemr Youtube Kanalına Ait Vampir Köylü Bot Altyapısı
+// 
